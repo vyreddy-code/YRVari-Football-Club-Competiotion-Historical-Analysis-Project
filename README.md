@@ -6,33 +6,17 @@ A data-driven historical analysis of global football clubs using SQL and Tabeau 
 
 The workflow includes data cleaning, ncludes end-to-end data preparation (views, transformations, joins), exploratory analysis, correlation studies, efficiency comparisons, and visual summaries.
 
-Motivation
+Motivation:
+
 Understanding the dynamics of club success is critical. This analysis explores factors such as valuation, age structure, and positional roles while identifying efficient clubs and continental trends.
+Football performance is often explained narratively (talent, coaching, money). But real drivers are hidden in massive, multi-table datasets. Modern clubs spend billions but success requires evidence-based squad building. We unify financial strength + squad structure + discipline to see what actually predicts winning.
 
-Football performance is often explained narratively (talent, coaching, money).
+Problem Definition:
 
-But real drivers are hidden in massive, multi-table datasets.
-
-Modern clubs spend billions; success requires evidence-based squad building.
-
-We unify financial strength + squad structure + discipline to see what actually predicts winning.
-
-Problem Definition
 This project aims to uncover the key drivers of football club success by analyzing how financial power, squad structure, and on-field discipline shape season-level performance. By integrating global match, player, and valuation data through BigQuery and SQL, we aim to explain why some clubs consistently outperform others.
 
-What truly drives football club success over a season?
+Objectives:
 
-Individual success and its comparision to team success.
-
-Quantify link between squad market value and win percentage.
-
-Understand how age structure and positional contribution shape outcomes.
-
-Evaluate continental player valuation growth trends.
-
-Identify clubs that overperform financially (“efficient clubs”).
-
-Objectives
 The project focuses on three core pillars:
 
 1. Financial Strength
@@ -40,7 +24,8 @@ The project focuses on three core pillars:
 3. Discipline & Competition Context
 
 
-Major Findings
+Major Findings:
+
 1. Financial Strength Matters—but Weakly
 - Overall correlation between squad value and win percentage ≈ 0.23
 - High-value clubs typically win more, but variance is large
@@ -62,7 +47,8 @@ Insight: Balanced positional output—particularly from forwards—is more impac
 
 Insight: Clubs that maintain discipline tend to outperform those with high card accumulation.
 
-Visualization Dashboard
+Visualization Dashboard:
+
 Tableau Story Link:
 https://public.tableau.com/app/profile/gurveen.rekhi/viz/A10Assignment2/Story1?publish=yes
 
