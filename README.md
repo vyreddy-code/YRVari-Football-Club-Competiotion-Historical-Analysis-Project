@@ -1,0 +1,2 @@
+# YRVari-Football-Club-Competiotion-Historical-Analysis-Project
+A data-driven historical analysis of global football clubs using SQL and Tabeau This project builds a unified club-by-season dataset by integrating player valuations, match results, squad composition, and disciplinary records. Using this dataset, the analysis explores how various factors influence club performance across leagues and seasons.
